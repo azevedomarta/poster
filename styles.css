@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'clash';
+  src: url(ClashDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: 'playfair';
+  src: url(PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'aktivgrotesk';
+  src: url(AktivGrotesk-Light.ttf);
+}
+
+
+body {
+  background-color: blue;
+  color: blue;
+  font-family: 'aktivgrotesk';
+  margin: 0;
+  padding: 0;
+  cursor:none;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} 
+  
+
+
+#mouse {
+  margin: 0;
+  overflow: hidden;
+  overflow-x: hidden;  
+}
+
+/* -------------- */
+
+.inicio {
+font-size: 15px;
+padding: 1%;
+text-align: center;
+word-spacing: 30px;
+}
+
+#title {
+font-family: 'playfair';
+font-size: 98px;
+text-align: center;
+word-spacing: 15px;
+padding-top: 3%;
+}
+
+/* -------------- */
+
+.coluna {
+column-count: 3;
+column-gap: 5%;
+padding: 5%;
+padding-top: 4%;
+padding-bottom:5% ;
+
+}
+
+.quote {
+  margin: 0;
+  font-size: 20.5px;
+ 
+}
+
+.imp {
+  font-family: 'clash';
+  font-size: 20px;
+}
